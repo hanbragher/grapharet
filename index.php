@@ -252,14 +252,20 @@
             <div class="controls text-center">
 
               <a class="filter active btn btn-common" data-filter="all">
-                All 
+                Բոլորը
               </a>
 
                 <?php
                     //$categories = ['vector', 'raster', 'photography', 'print'];
-                    $categories = ['New Boxes'=>'boxes', 'designs'=>'designs', 'logos'=>'logos', 'photography'=>'photography'];
+                    $categories = [
+                        'boxes'=>'Տուփեր',
+                        'cards'=>'Այցեքարտեր',
+                        'individual'=>'Անհատական',
+                        'labels'=>'Պիտակներ',
+                        'publications'=>'Հրատարակություն',
+                    ];
                     foreach ($categories as $category_name=>$category){
-                        echo '<a class="filter btn btn-common" data-filter=".'.$category.'">'.$category_name.'</a>';
+                        echo '<a class="filter btn btn-common" data-filter=".'.$category_name.'">'.$category.'</a>';
                     }
                 ?>
             </div>
@@ -270,20 +276,23 @@
           <div id="portfolio" class="row wow fadeInDown" data-wow-delay="0.4s">
 
               <?php
-                  $artworks = array_diff(scandir('assets/portfolio/files'), array('..', '.'));
-                  foreach($artworks as $artwork){
-                      $artwork_array = explode( ';', str_replace('.jpg', "", $artwork));
-                      $artwork_caption = $artwork_array[0];
-                      $artwork_categories = implode(" ", array_slice($artwork_array, 1));
+                  foreach ($categories as $category_name=>$category){
 
-                      if(!empty($artwork)){
-                          echo '<div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix '.$artwork_categories.'">
+                      $artworks = array_diff(scandir('assets/portfolio/files/'.$category_name), array('..', '.'));
+
+                      foreach($artworks as $artwork){
+
+                          $artwork_array = explode( ';', str_replace('.jpg', "", $artwork));
+                          $artwork_caption = $artwork_array[0];
+
+                          if(!empty($artwork)){
+                              echo '<div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix '.$category_name.'">
                                   <div class="portfolio-item">
                                     <div class="shot-item">
-                                      <img src="assets/portfolio/files/'.$artwork.'" alt="'.$artwork_caption.'" title="'.$artwork_caption.'"/>
+                                      <img src="assets/portfolio/files/'.$category_name.'/'.$artwork.'" alt="'.$artwork_caption.'" title="'.$artwork_caption.'"/>
                                       <div class="overlay">
                                         <div class="icons">
-                                          <a class="lightbox preview" href="assets/portfolio/files/'.$artwork.'" title="'.$artwork_caption.'">
+                                          <a class="lightbox preview" href="assets/portfolio/files/'.$category_name.'/'.$artwork.'" title="'.$artwork_caption.'">
                                             <i class="icon-eye"></i>
                                           </a>
                                         </div>
@@ -291,8 +300,11 @@
                                     </div>               
                                   </div>
                                 </div>';
+                          };
                       };
-                  };
+
+                  }
+
               ?>
           </div>
         </div>
