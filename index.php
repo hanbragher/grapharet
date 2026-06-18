@@ -74,27 +74,27 @@
             <ul class="onepage-nev navbar-nav mr-auto w-100 justify-content-end clearfix">
               <li class="nav-item active">
                 <a class="nav-link" href="#hero-area">
-                  Home
+                    Գլխավոր
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#about">
-                  About
+                    Մեր մասին
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#services">
-                  Services
+                    Ծառայություններ
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#portfolios">
-                  Work
+                    Պորտֆոլիո
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#contact">
-                  Contact
+                    Կապ
                 </a>
               </li>
             </ul>
