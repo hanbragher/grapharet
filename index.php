@@ -185,18 +185,18 @@
 
     <!-- Services Section Start -->
     <section id="services" class="services section-padding">
-      <h2 class="section-title wow flipInX" data-wow-delay="0.4s">What we do</h2>
+      <h2 class="section-title wow flipInX" data-wow-delay="0.4s">Մենք կատարում ենք</h2>
       <div class="container">
         <div class="row">
           <!-- Services item -->
           <div class="col-md-6 col-lg-3 col-xs-12">
             <div class="services-item wow fadeInDown" data-wow-delay="0.3s">
               <div class="icon">
-                <i class="icon-vector"></i>
+                <i class="icon-printer"></i>
               </div>
               <div class="services-content">
-                <h3><a href="#portfolios" class="filter" data-filter="all">Vector Graphic</a></h3>
-                <p>Scalable digital images created with mathematical equations.</p>
+                <h3><a href="#portfolios" class="filter" data-filter="all">Տպագրություն</a></h3>
+                <p>Բարձրորակ օֆսեթ տպագրություն</p>
               </div>
             </div>
           </div>
@@ -204,11 +204,11 @@
           <div class="col-md-6 col-lg-3 col-xs-12">
             <div class="services-item wow fadeInDown" data-wow-delay="0.6s">
               <div class="icon">
-                <i class="icon-layers"></i>
+                <i class="icon-social-stumbleupon"></i>
               </div>
               <div class="services-content">
-                <h3><a href="#portfolios" class="filter" data-filter="all">Raster Graphic</a></h3>
-                <p>Digital image created with pixels, resolution determines quality.</p>
+                <h3><a href="#portfolios" class="filter" data-filter="all">Եզրահատում</a></h3>
+                <p>Հատուկ եզրերի կտրում</p>
               </div>
             </div>
           </div>
@@ -216,11 +216,11 @@
           <div class="col-md-6 col-lg-3 col-xs-12">
             <div class="services-item wow fadeInDown" data-wow-delay="0.9s">
               <div class="icon">
-                <i class="icon-picture"></i>
+                <i class="icon-layers"></i>
               </div>
               <div class="services-content">
-                <h3><a href="#portfolios" class="filter" data-filter="all">Photography</a></h3>
-                <p>Art of capturing images with a camera.</p>
+                <h3><a href="#portfolios" class="filter" data-filter="all">Թաղանթապատում</a></h3>
+                <p>Պաշտպանիչ փայլ կամ մատ</p>
               </div>
             </div>
           </div>
@@ -228,11 +228,11 @@
           <div class="col-md-6 col-lg-3 col-xs-12">
             <div class="services-item wow fadeInDown" data-wow-delay="1.2s">
               <div class="icon">
-                <i class="icon-printer"></i>
+                <i class="icon-diamond"></i>
               </div>
               <div class="services-content">
-                <h3><a href="#portfolios" class="filter" data-filter="all">Print</a></h3>
-                <p>We offer printing services in various methods and materials.</p>
+                <h3><a href="#portfolios" class="filter" data-filter="all">Ֆոլգավորում</a></h3>
+                <p>Ոսկեգույն և մետաղական շեշտադրում</p>
               </div>
             </div>
           </div>
@@ -245,7 +245,7 @@
     <section id="portfolios" class="section-padding">
       <!-- Container Starts -->
       <div class="container">        
-        <h2 class="section-title wow flipInX" data-wow-delay="0.4s">Our Works</h2>
+        <h2 class="section-title wow flipInX" data-wow-delay="0.4s">Մեր աշխատանքներից</h2>
         <div class="row">          
           <div class="col-md-12">
             <!-- Portfolio Controller/Buttons -->
@@ -322,7 +322,7 @@
                 <div class="counter wow fadeInDown" data-wow-delay="0.3s">
                     <div class="icon"><i class="icon-user-following"></i></div>
                     <!--<div class="counterUp">250</div>-->
-                    <p>Individual Approach</p>
+                    <p>Անհատական մոտեցում</p>
                 </div>
             </div>
 
@@ -331,7 +331,7 @@
                 <div class="counter wow fadeInDown" data-wow-delay="0.6s">
                     <div class="icon"><i class="icon-target"></i></div>
                     <!--<div class="counterUp">950</div>-->
-                    <p>Personalized Touch</p>
+                    <p>Ճշգրիտ կատարում</p>
                 </div>
             </div>
 
@@ -342,7 +342,7 @@
             <div class="counter wow fadeInDown" data-wow-delay="0.9s">
               <div class="icon"><i class="icon-diamond"></i></div>
               <!--<div class="counterUp">150</div>-->
-              <p>Unique Designs</p>
+              <p>Բարձր որակ</p>
             </div>
           </div>
           <!-- Counter Item -->
@@ -350,7 +350,7 @@
             <div class="counter wow fadeInDown" data-wow-delay="1.2s">
               <div class="icon"><i class="icon-heart"></i></div>
               <!--<div class="counterUp">299</div>-->
-              <p>Creative Solutions</p>
+              <p>Մաքուր արդյունք</p>
             </div>
           </div>
         </div>
@@ -364,7 +364,7 @@
         <div class="container">
             <div class="row contact-form-area wow fadeInUp" data-wow-delay="0.4s">
                 <div class="col-md-12 col-lg-12 col-sm-12">
-                    <h2>Contacts</h2>
+                    <h2>Կապ</h2>
                     <div class="footer-right-area wow fadeIn">
                         <div class="footer-right-contact">
                             <a href="mailto:grapharet@gmail.com">
@@ -373,6 +373,22 @@
                                         <i class="fa fa-envelope"></i>
                                     </div>
                                     <p>grapharet@gmail.com</p>
+                                </div>
+                            </a>
+                            <a href="https://www.facebook.com/grapharet">
+                                <div class="single-contact">
+                                    <div class="contact-icon">
+                                        <i class="fa fa-facebook"></i>
+                                    </div>
+                                    <p>grapharet</p>
+                                </div>
+                            </a>
+                            <a href="https://www.instagram.com/grapharet">
+                                <div class="single-contact">
+                                    <div class="contact-icon">
+                                        <i class="fa fa-instagram"></i>
+                                    </div>
+                                    <p>grapharet</p>
                                 </div>
                             </a>
                             <!--<a href="tel:+37433336277">
