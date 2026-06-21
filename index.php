@@ -9,7 +9,7 @@
 
     <meta name="robots" content="noindex, nofollow" />
 
-    <link rel="shortcut icon" href="logo40px.png">
+    <link rel="shortcut icon" href="assets/img/logo60px.ico">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" >
     <!-- Fonts -->
@@ -77,7 +77,7 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#about">
-                    Մեր մասին
+                    Մեր մոտեցումը
                 </a>
               </li>
               <li class="nav-item">
@@ -103,22 +103,22 @@
         <!-- Mobile Menu Start -->
         <ul class="onepage-nev mobile-menu">
           <li>
-            <a href="#home">Home</a>
+            <a href="#home">Գլխավոր</a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a href="#about">Մեր մոտեցումը</a>
           </li>
           <li>
-            <a href="#services">Services</a>
+            <a href="#services">Ծառայություններ</a>
           </li>
           <!--<li>
             <a href="#resume">Resume</a>
           </li>-->
           <li>
-            <a href="#portfolios">Work</a>
+            <a href="#portfolios">Պորտֆոլիո</a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact">Կապ</a>
           </li>
         </ul>
         <!-- Mobile Menu End -->
@@ -132,14 +132,14 @@
           <div class="row">
             <div class="col-md-12 col-sm-12 text-center">
               <div class="contents">
-                <h5 class="script-font wow fadeInUp" data-wow-delay="0.2s">Hi This is</h5>
+                <!--<h5 class="script-font wow fadeInUp" data-wow-delay="0.2s">Ողջույն</h5>-->
                 <h2 class="head-title wow fadeInUp" data-wow-delay="0.4s">Grapharet</h2>
-                <p class="script-font wow fadeInUp" data-wow-delay="0.6s">We create vector and raster graphics</p>
+                <p class="script-font wow fadeInUp" data-wow-delay="0.6s">Տպագրության զգայական և տեսողական լեզու</p>
                 <p class="script-font wow fadeInUp" data-wow-delay="0.6s">bring it in real life</p>
 
                 <div class="header-button wow fadeInUp" data-wow-delay="1s">
-                  <a href="http://m.me/grapharet" class="btn btn-common">
-                    <i class="icon-social-facebook"></i> Send a message
+                  <a href="http://m.me/grapharet" class="btn btn-common" target="_blank">
+                    <i class="icon-social-facebook"></i> Ուղարկել նամակ
                   </a>
                 </div>
               </div>
@@ -163,9 +163,11 @@
           </div> 
           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div class="profile-wrapper wow fadeInRight" data-wow-delay="0.3s">
-              <h3>Hello!</h3>
-              <p style="font-size:17px">We are professional team, who creating, modify and edit media graphics around the world. With our skills, you can add the necessary brick to your business and make it more complete. </p>
-              <!--<div class="about-profile">
+              <h3>Ողջույն</h3>
+              <p style="font-size:17px">
+                  Մենք հավատում ենք, որ տպագրությունը միայն տեղեկատվություն չէ, այլ նաև բրենդի տեսողական և շոշափելի լեզուն։ Այդ պատճառով յուրաքանչյուր նախագիծ իրականացվում է ուշադրությամբ, ճշգրտությամբ և բարձր որակի պահանջներով։
+              </p>
+             <!-- <div class="about-profile">
                 <ul class="admin-profile">
                   <li>
                     <span class="pro-title"> Name </span> <span class="pro-detail">Tom Saulnier</span>
